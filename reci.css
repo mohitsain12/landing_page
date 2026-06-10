@@ -1,0 +1,32 @@
+body{
+    background-color: bisque;
+}
+
+header {
+    background: #2ea984;
+    padding: 50px 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(203, 82, 110);
+}
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: rgb(219, 54, 199);
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}

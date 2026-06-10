@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(190, 188, 186);
+}
+
+.container{
+    width :20vw;
+    height: 50vh;
+    border: 2px black solid;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 40vw;
+    margin-top: 25vh;
+}
+
+
+
+.box{
+    background-color: rgb(202, 32, 143);
+    color: rgb(0, 0, 0);
+    width: 200px;
+    text-align: center;
+    position: relative;
+    left: 40px;
+    top: 30px;
+    padding: 10px;
+    
+   
+}
+
+
+
+.box3 a{
+  display: block;
+  text-decoration: none;
+  color: #23296f;
+  margin: 5px 0;
+  font-weight: 500;
+  position: relative;
+  bottom: 10px;
+}
+.box3 a:hover {
+  color: #007bff;
+}
