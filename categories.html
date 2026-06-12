@@ -7,15 +7,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="category" onclick="toggleMenu(this)">
-    <div class="category-title">🇮🇹 Italian Cuisine</div>
-
-    <div class="dish-list">
-        <div class="dish" onclick="showRecipe(event, 'pizza')">Pizza</div>
-        <div class="dish" onclick="showRecipe(event, 'pasta')">Pasta</div>
-        <div class="dish" onclick="showRecipe(event, 'risotto')">Risotto</div>
+    <div class="category italian" onclick="toggleMenu(this)">
+        <div class="category-title">🇮🇹 Italian Cuisine</div>
+        <div class="dish-list">
+            <div class="dish" onclick="showRecipe(event, 'pizza')">Pizza</div>
+            <div class="dish" onclick="showRecipe(event, 'pasta')">Pasta</div>
+            <div class="dish" onclick="showRecipe(event, 'risotto')">Risotto</div>
+        </div>
     </div>
-</div>
+
+    <div class="category indian" onclick="toggleMenu(this)">
+        <div class="category-title">🇮🇳 Indian Cuisine</div>
+        <div class="dish-list">
+            <div class="dish" onclick="showRecipe(event, 'biryani')">Biryani</div>
+            <div class="dish" onclick="showRecipe(event, 'butterChicken')">Butter Chicken</div>
+            <div class="dish" onclick="showRecipe(event, 'samosa')">Samosa</div>
+        </div>
+    </div>
+
+    <div class="category mexican" onclick="toggleMenu(this)">
+        <div class="category-title">🇲🇽 Mexican Cuisine</div>
+        <div class="dish-list">
+            <div class="dish" onclick="showRecipe(event, 'tacos')">Tacos</div>
+            <div class="dish" onclick="showRecipe(event, 'enchiladas')">Enchiladas</div>
+            <div class="dish" onclick="showRecipe(event, 'guacamole')">Guacamole</div>
+        </div>
+    </div>
+
+    <div class="category chinese" onclick="toggleMenu(this)">
+        <div class="category-title">🇨🇳 Chinese Cuisine</div>
+        <div class="dish-list">
+            <div class="dish" onclick="showRecipe(event, 'friedRice')">Fried Rice</div>
+            <div class="dish" onclick="showRecipe(event, 'dumplings')">Dumplings</div>
+            <div class="dish" onclick="showRecipe(event, 'kungPaoChicken')">Kung Pao Chicken</div>
+        </div>
+    </div>
 
 <div id="recipe-container">
     <h2>Select a Dish</h2>
