@@ -104,3 +104,38 @@ footer {
     padding: 15px;
     text-align: center;
 }
+
+.category {
+    width: 300px;
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.category:hover {
+    transform: scale(1.02);
+}
+
+.dish-list {
+    display: none;
+    margin-top: 15px;
+}
+
+.category.active .dish-list {
+    display: block;
+}
+
+.dish {
+    padding: 10px;
+    margin: 5px 0;
+    background: #f4f4f4;
+    border-radius: 8px;
+}
+
+.dish:hover {
+    background: #ddd;
+}

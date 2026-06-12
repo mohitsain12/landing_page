@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Categories</title>
-    <link rel="stylesheet" href="cate.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="category" onclick="toggleMenu(this)">
+    <div class="category-title">🇮🇹 Italian Cuisine</div>
+
+    <div class="dish-list">
+        <div class="dish" onclick="showRecipe(event, 'pizza')">Pizza</div>
+        <div class="dish" onclick="showRecipe(event, 'pasta')">Pasta</div>
+        <div class="dish" onclick="showRecipe(event, 'risotto')">Risotto</div>
+    </div>
+</div>
+
+<div id="recipe-container">
+    <h2>Select a Dish</h2>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
