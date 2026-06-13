@@ -3,25 +3,168 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipes</title>
+    <title>Recipes - Recipe Book</title>
     <link rel="stylesheet" href="reci.css">
 </head>
 <body>
     <header>
-        <h1>RECIPES</h1>
-        <p>Find your recipe ?</p>
+        <h1>RECIPES ❤️</h1>
+        <p>Discover delicious recipes from around the world</p>
         <nav>
             <ul>
-                <li><a href="./contact.html">Search</a></li>
                 <li><a href="./index.html">Home</a></li>
-                <li><a href="./contact.html">Add</a></li>
-                <li><a href="./contact.html">Delete</a></li>
+                <li><a href="./recipes.html">Recipes</a></li>
+                <li><a href="./categories.html">Categories</a></li>
+                <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        
+        <section class="search-section" id="search">
+            <input type="text" placeholder="Search recipes by name or ingredient..." class="search-bar">
+            <div class="filter-buttons">
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">Breakfast</button>
+                <button class="filter-btn">Lunch</button>
+                <button class="filter-btn">Dinner</button>
+                <button class="filter-btn">Desserts</button>
+            </div>
+        </section>
+
+        <section class="recipes-grid">
+            <article class="recipe-card">
+                <div class="recipe-image" style="background: linear-gradient(135deg, #f5e6d3, #e8d4c0);">
+                    <span class="recipe-icon">🍝</span>
+                </div>
+                <div class="recipe-content">
+                    <h3>Spaghetti Carbonara</h3>
+                    <p class="category">Italian • Dinner</p>
+                    <p class="description">Classic Italian pasta with creamy sauce, bacon, and parmesan cheese.</p>
+                    <div class="recipe-meta">
+                        <span class="time">⏱️ 20 mins</span>
+                        <span class="servings">👥 4 servings</span>
+                    </div>
+                    <div class="recipe-rating">
+                        <span class="stars">⭐⭐⭐⭐⭐</span>
+                        <span class="rating-text">(248 reviews)</span>
+                    </div>
+                    <button class="view-btn">View Recipe</button>
+                </div>
+            </article>
+
+            <article class="recipe-card">
+                <div class="recipe-image" style="background: linear-gradient(135deg, #ffe6e6, #ffd9d9);">
+                    <span class="recipe-icon">🍜</span>
+                </div>
+                <div class="recipe-content">
+                    <h3>Vegetable Stir Fry</h3>
+                    <p class="category">Asian • Lunch</p>
+                    <p class="description">Quick and healthy stir-fried vegetables with soy sauce and garlic.</p>
+                    <div class="recipe-meta">
+                        <span class="time">⏱️ 15 mins</span>
+                        <span class="servings">👥 2-3 servings</span>
+                    </div>
+                    <div class="recipe-rating">
+                        <span class="stars">⭐⭐⭐⭐</span>
+                        <span class="rating-text">(156 reviews)</span>
+                    </div>
+                    <button class="view-btn">View Recipe</button>
+                </div>
+            </article>
+
+            <article class="recipe-card">
+                <div class="recipe-image" style="background: linear-gradient(135deg, #fff4e6, #ffe6cc);">
+                    <span class="recipe-icon">🥞</span>
+                </div>
+                <div class="recipe-content">
+                    <h3>Fluffy Pancakes</h3>
+                    <p class="category">Breakfast • Sweet</p>
+                    <p class="description">Soft and fluffy pancakes perfect for a weekend breakfast with syrup and berries.</p>
+                    <div class="recipe-meta">
+                        <span class="time">⏱️ 25 mins</span>
+                        <span class="servings">👥 4 servings</span>
+                    </div>
+                    <div class="recipe-rating">
+                        <span class="stars">⭐⭐⭐⭐⭐</span>
+                        <span class="rating-text">(312 reviews)</span>
+                    </div>
+                    <button class="view-btn">View Recipe</button>
+                </div>
+            </article>
+
+            <article class="recipe-card">
+                <div class="recipe-image" style="background: linear-gradient(135deg, #e6f3ff, #cce6ff);">
+                    <span class="recipe-icon">🍱</span>
+                </div>
+                <div class="recipe-content">
+                    <h3>Chicken Tikka Masala</h3>
+                    <p class="category">Indian • Dinner</p>
+                    <p class="description">Tender chicken in a rich and creamy tomato-based curry sauce. Serve with rice or naan.</p>
+                    <div class="recipe-meta">
+                        <span class="time">⏱️ 45 mins</span>
+                        <span class="servings">👥 4-5 servings</span>
+                    </div>
+                    <div class="recipe-rating">
+                        <span class="stars">⭐⭐⭐⭐⭐</span>
+                        <span class="rating-text">(289 reviews)</span>
+                    </div>
+                    <button class="view-btn">View Recipe</button>
+                </div>
+            </article>
+
+            <article class="recipe-card">
+                <div class="recipe-image" style="background: linear-gradient(135deg, #f0e6ff, #e6d9ff);">
+                    <span class="recipe-icon">🍰</span>
+                </div>
+                <div class="recipe-content">
+                    <h3>Chocolate Lava Cake</h3>
+                    <p class="category">Dessert • Sweet</p>
+                    <p class="description">Rich and decadent chocolate cake with a gooey center. Perfect for chocolate lovers.</p>
+                    <div class="recipe-meta">
+                        <span class="time">⏱️ 20 mins</span>
+                        <span class="servings">👥 2 servings</span>
+                    </div>
+                    <div class="recipe-rating">
+                        <span class="stars">⭐⭐⭐⭐⭐</span>
+                        <span class="rating-text">(421 reviews)</span>
+                    </div>
+                    <button class="view-btn">View Recipe</button>
+                </div>
+            </article>
+
+            <article class="recipe-card">
+                <div class="recipe-image" style="background: linear-gradient(135deg, #e6ffe6, #ccffcc);">
+                    <span class="recipe-icon">🥗</span>
+                </div>
+                <div class="recipe-content">
+                    <h3>Caesar Salad</h3>
+                    <p class="category">Healthy • Lunch</p>
+                    <p class="description">Fresh and crispy salad with homemade Caesar dressing and parmesan shavings.</p>
+                    <div class="recipe-meta">
+                        <span class="time">⏱️ 10 mins</span>
+                        <span class="servings">👥 2-3 servings</span>
+                    </div>
+                    <div class="recipe-rating">
+                        <span class="stars">⭐⭐⭐⭐</span>
+                        <span class="rating-text">(198 reviews)</span>
+                    </div>
+                    <button class="view-btn">View Recipe</button>
+                </div>
+            </article>
+        </section>
+
+        <section class="cta-section" id="contact">
+            <h2>Have a Recipe to Share?</h2>
+            <p>Share your favorite recipes with our community</p>
+            <button class="cta-btn">Submit Your Recipe</button>
+        </section>
     </main>
+
+    <footer>
+        <p>© 2025 Recipe Book | Built with ❤️ for Foodies</p>
+    </footer>
+
+    <script src="recipes.js"></script>
 </body>
 </html>
